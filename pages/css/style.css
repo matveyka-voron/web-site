@@ -67,6 +67,10 @@ body {
     margin-right: 20px;
 }
 
+.ramka {
+    background-color: #292929;
+}
+
 @media screen and (max-width: 1000px) {
     .vk_widget {
         display: none;
