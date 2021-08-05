@@ -13,6 +13,11 @@ body {
     margin-right: 20%;
 }
 
+.small_title2 {
+    font-size: 38px;
+    margin-left: 8%;
+}
+
 .arial {
     font-style: normal;
     font-weight: bold;
@@ -24,6 +29,13 @@ body {
     font-weight: lighter;
     margin-left: 14%;
     margin-right: 20%;
+}
+
+.text_normal2 {
+    font-size: 23px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 8%;
 }
 
 .vk_widget {
@@ -46,9 +58,22 @@ body {
     color:blue;
 }
 
+#portfolio {
+    float: left;
+}
+
+#portfolio_img {
+    width: 40%;
+    margin-right: 20px;
+}
+
 @media screen and (max-width: 1000px) {
     .vk_widget {
         display: none;
+    }
+
+    #portfolio_img {
+        width: 80%;
     }
 
     #image {
